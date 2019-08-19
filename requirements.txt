@@ -1,2 +1,4 @@
 SSIM-PIL
 image
+numpy
+pytest
