@@ -8,7 +8,7 @@ def find_similarity(image1_path, image2_path):
     image1 = Image.open(image1_path)
     image2 = Image.open(image2_path)
     value = compare_ssim(image1, image2)
-    return 1 - round(value, 6)
+    return round((1 - value), 6)
 
 
 def process_csv_file_images(input_path, output_path):
