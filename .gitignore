@@ -1,0 +1,7 @@
+#ignoring the following files
+.DS_Store
+.idea
+__pycache__/
+venv/
+image-comparison.iml
+
